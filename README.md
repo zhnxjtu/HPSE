@@ -6,22 +6,20 @@
 
 Contents:
 
-    (1) In the "1.Image" folder, we give the image samples used in the paper.
+    (1) In the "1.Pre-trained_Model" folder, we give the pre-trained model of different DNNs.
 
-    (2) In the "2.Pre-trained_Model" folder, we give the pre-trained model of different DNNs.
+    (2) In the "2.Pruned_Model" folder, we demonstrate the different model after pruning.
 
-    (3) In the "3.Pruned_Model" folder, we demonstrate the different model after pruning.
+    (3) In the "3.Pruned_Label" folder, we show the removed labels of different DNNs.
 
-    (4) In the "4.Pruned_Label" folder, we show the removed labels of different DNNs.
+    (4) In the "4.FLOP_calculation" folder, we give the code to calculate the FOLPs and parameters of pruned model.
 
-    (5) In the "5.FLOP_calculation" folder, we give the code to calculate the FOLPs and parameters of pruned model.
-
-    (6) In other folders, we give the code to prune different models in two manners (whether to train the network from scratch).
+    (5) In other folders, we give the code to prune different models in two manners (whether to train the network from scratch).
 
 
 Note: 
 
-    - The "2.Pre-trained_Model" folder and "3.Pruned_Model" folder give the baseline model and pruned model of DenseNet, ResNet-56 and ResNet-110, respectively. 
+    - The "1.Pre-trained_Model" folder and "2.Pruned_Model" folder give the baseline model and pruned model of DenseNet, ResNet-56 and ResNet-110, respectively. 
 *************************************************************************************
 
 Pruning process:
@@ -100,7 +98,7 @@ Pruning process:
 
 4. Calculate the parameters and FLOPs
 
-    - In the "5.FLOP_calculation" folder, run "main_FLOPs.m" to get the parameters and FLOPs of pruned DNN.
+    - In the "4.FLOP_calculation" folder, run "main_FLOPs.m" to get the parameters and FLOPs of pruned DNN.
 *************************************************************************************
 
 Supplementary note:
