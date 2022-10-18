@@ -1,7 +1,7 @@
 # HPSE
 
 *************************************************************************************
-*This is the instruction of the code for "Hierarchical Model Compression via Shape-Edge Representation of Feature Map — an Enlightenment from the Primate Visual System".
+*This is the instruction of the code for "Hierarchical Model Compression via Shape-Edge Representation of Feature Map — an Enlightenment from the Primate Visual System". The paper is accepted by IEEE Transaction on Multimedia
 *************************************************************************************
 
 Contents:
@@ -107,4 +107,3 @@ Supplementary note:
 
     - The pruning steps of VGG-16 and ResNet-50 are similar to the above steps.
  
-This paper is accepted by IEEE Transaction on Multimedia
